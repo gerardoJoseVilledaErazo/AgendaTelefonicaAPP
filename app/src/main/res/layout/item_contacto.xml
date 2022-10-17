@@ -56,9 +56,9 @@
         android:text="@string/btn_Update"
         android:textSize="10sp"
         android:layout_marginTop="@dimen/padding"
-        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginLeft="32dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txtPropietario" />
+        app:layout_constraintStart_toEndOf="@+id/txtNumero" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEliminar"
