@@ -22,5 +22,5 @@ interface ContactoDAO
     fun update(entity: Contacto)
 
     @Query("SELECT*FROM contactos")
-    fun getAllStudent(): MutableList<Contacto>
+    fun getAllContacto(): MutableList<Contacto>
 }

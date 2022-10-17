@@ -6,7 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.agendatelefonicaapp.Models.Contacto
 import com.example.agendatelefonicaapp.R
 
-class ContactoAdapter(private val contactoList: MutableList<Contacto>) : RecyclerView.Adapter<ContactoViewHolder>()
+class ContactoAdapter(private val contactoList: MutableList<Contacto>
+                        ) : RecyclerView.Adapter<ContactoViewHolder>()
 {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactoViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
